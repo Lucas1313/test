@@ -1,0 +1,40 @@
+body {
+    font-family: "Arial";
+    font-size: 12px;
+}
+.navigation {
+    margin: 20px auto;
+    font-size: 12px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.navigation a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: azure;
+    box-shadow: 5px 5px 5px #adadad;
+    border-radius: 8px;
+}
+.navigation a :hover {
+    border: solid 1px darkblue;
+    box-shadow: 5px 5px 10px #acacac;
+}
+.title h1{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.section-three-quarter {
+    width: 75vw;
+    height: 75vh;
+    margin: auto;
+    background: aliceblue;
+}
+
