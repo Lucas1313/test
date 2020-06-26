@@ -1,0 +1,31 @@
+.flex-positionned {
+  display: flex;
+  height: 200px;
+  width: 500px;
+  flex-direction: row;
+  background: lightcoral;
+  position: relative;
+  left: 30%;
+  top: 30%;
+}
+.flex-positionned-column {
+  display: flex;
+  height: 500px;
+  width: 200px;
+  flex-direction: column;
+  background: lightgreen;
+  position: relative;
+  left: 30%;
+  top: 30%;
+  margin: 40px 0;
+}
+
+.flex-positionned p,
+.flex-positionned-column p {
+  border: solid 1px red;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  margin: 20px;
+  background: lightpink;
+}
